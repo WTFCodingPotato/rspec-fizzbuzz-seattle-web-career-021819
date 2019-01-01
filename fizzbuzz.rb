@@ -4,8 +4,7 @@ def fizzbuzz (int)
   if3 = "Fizz"
   if5 = "Buzz"
   if (int % 3 == 0 && int % 5 == 0)
-    reply = if3 + if5
-    reply
+    if3 + if5
   elsif int % 3 == 0
     if3
   elsif int % 5 == 0
